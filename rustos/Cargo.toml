@@ -1,0 +1,28 @@
+[package]
+name = "rustos"
+version = "0.2.0"
+edition = "2021"
+authors = ["AetherOS Engineering Team"]
+description = "Freestanding 32-bit bare-metal operating system kernel in Rust"
+
+[dependencies]
+# Dependencies specified for standard builds
+volatile = { version = "0.2.6", optional = true }
+spin = { version = "0.9.8", optional = true }
+x86_64 = { version = "0.14.10", optional = true }
+pic8259 = { version = "0.10.2", optional = true }
+pc-keyboard = { version = "0.7.0", optional = true }
+
+[features]
+default = []
+external_crates = ["volatile", "spin", "x86_64", "pic8259", "pc-keyboard"]
+
+[profile.dev]
+panic = "abort"
+opt-level = 2
+
+[profile.release]
+panic = "abort"
+opt-level = 3
+lto = true
+codegen-units = 1

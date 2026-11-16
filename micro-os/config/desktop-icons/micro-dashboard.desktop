@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Micro OS Dashboard
+Comment=System Hardware & Resource Monitor
+Exec=xfce4-terminal --title="Micro OS Dashboard" --geometry=80x25 -e "/usr/local/bin/micro-dashboard"
+Icon=utilities-system-monitor
+Terminal=false
+Categories=System;Monitor;

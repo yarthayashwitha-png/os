@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Snake Game
+Comment=Classic Retro Console Arcade Snake
+Exec=xfce4-terminal --title="Snake Game - Retro Arcade" --geometry=80x25 -e "/usr/games/nsnake"
+Icon=applications-games
+Terminal=false
+Categories=Game;ArcadeGame;

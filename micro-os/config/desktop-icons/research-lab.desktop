@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Producer-Consumer & Research Lab
+Comment=Tsai & Lei ACM SAC'17 Page Replacement Algorithm Benchmark
+Exec=xfce4-terminal --title="AetherOS Research Lab - ACM SAC'17" --geometry=100x32 -e "/usr/local/bin/research-lab"
+Icon=utilities-system-monitor
+Terminal=false
+Categories=Development;Science;Education;

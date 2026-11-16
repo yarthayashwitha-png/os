@@ -1,0 +1,47 @@
+# ==============================================================================
+# GitHub Repository Cleanliness Rules (< 100MB File Exclusion Policy)
+# ==============================================================================
+
+# OS Disk Images & Installers (> 100 MB)
+*.iso
+*.img
+*.bin
+*.vdi
+*.vmdk
+*.vhd
+*.vhdx
+*.qcow2
+*.squashfs
+
+# Windows Installers & Download Caches
+tools/installers/
+*.exe
+*.msi
+
+# Build Artifacts & Intermediate Binaries
+build/
+target/
+*.o
+*.a
+*.so
+*.dylib
+*.dll
+*.pdb
+*.obj
+
+# Rust / Cargo specific
+**/*.rs.bk
+Cargo.lock
+
+# VirtualBox Machine State
+*.vbox
+*.vbox-prev
+*.nvram
+*.log
+
+# Editor & System metadata
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini

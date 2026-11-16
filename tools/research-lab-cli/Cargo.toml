@@ -1,0 +1,8 @@
+[package]
+name = "research-lab-cli"
+version = "0.1.0"
+edition = "2021"
+authors = ["AetherOS Engineering Team"]
+description = "Page Replacement Algorithm Evaluation Lab (Tsai & Lei ACM SAC'17)"
+
+[dependencies]

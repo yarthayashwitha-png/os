@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Boot Time Benchmark
+Comment=View Detailed System Boot Time Blame
+Exec=xfce4-terminal --title="Boot Time Benchmark" --geometry=80x25 -e "/usr/local/bin/boot-benchmark"
+Icon=preferences-system
+Terminal=false
+Categories=System;Benchmark;

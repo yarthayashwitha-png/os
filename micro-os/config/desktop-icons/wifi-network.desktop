@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=WiFi & Network Settings
+Comment=Configure Laptop Wi-Fi & Network Connections
+Exec=nm-connection-editor
+Icon=network-wireless
+Terminal=false
+Categories=Settings;HardwareSettings;Network;

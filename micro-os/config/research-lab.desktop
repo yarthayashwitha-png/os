@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Research Lab (Page Replacement)
+Comment=Tsai & Lei ACM SAC'17 Academic Benchmark Suite
+Exec=xfce4-terminal --title="AetherOS Research Lab - ACM SAC'17" --geometry=100x32 -e "/usr/local/bin/research-lab"
+Icon=utilities-system-monitor
+Terminal=false
+StartupNotify=true
+Categories=Development;Science;Education;

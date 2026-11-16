@@ -1,0 +1,14 @@
+[build]
+target = "i686-rustos.json"
+
+[unstable]
+build-std = ["core", "compiler_builtins"]
+build-std-features = ["compiler-builtins-mem"]
+
+[target.'cfg(target_os = "none")']
+runner = "qemu-system-x86_64 -m 128 -kernel"
+rustflags = [
+    "-C", "link-arg=-Tlinker.ld",
+    "-C", "link-arg=-nostdlib",
+    "-C", "relocation-model=static",
+]

@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=APT Package Manager
+Comment=Manage Packages with Aptitude
+Exec=xfce4-terminal --title="APT Package Manager" --geometry=80x25 -e "/usr/local/bin/apt-gui"
+Icon=system-software-install
+Terminal=false
+Categories=System;PackageManager;
